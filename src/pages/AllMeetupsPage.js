@@ -16,7 +16,7 @@ const DUMMY_DATA = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg",
     address: "Meetupstreet 5, 12345 Meetup City",
     description:
-      "This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!",
+      "This is a second amazing meetup which you definitely should not miss. It will be a lot of crazy fun!",
   },
 ];
 
@@ -24,7 +24,7 @@ function AllMeetupsPage() {
   return (
     <section>
       <h1>All MeetUps Page</h1>;
-      <MeetupList meetups={DUMMY_DATA} />; )
+      <MeetupList meetups={DUMMY_DATA} />
     </section>
   );
 }
