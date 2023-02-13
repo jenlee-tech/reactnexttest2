@@ -1,1 +1,5 @@
 node_modules
+readme.md
+node_modules/.cache/.eslintcache
+.vscode/settings.json
+node_modules/.cache/.eslintcache
