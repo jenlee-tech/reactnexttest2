@@ -16,7 +16,7 @@ function FavoritesPage(props) {
   return (
     <section>
       <h1> My Favoirtes </h1>
-      <MeetupList meetups={favoirtesCtx.favorites} />
+      {content}
     </section>
   );
 }
